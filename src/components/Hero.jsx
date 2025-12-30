@@ -218,7 +218,7 @@ const Hero = () => {
 
       <div style={backgroundStyle}>
         <video style={videoStyle} autoPlay muted loop playsInline>
-          <source src="/video-hero.mp4" type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + "video-hero.mp4"} type="video/mp4" />
         </video>
       </div>
 
@@ -285,7 +285,7 @@ const Hero = () => {
             controls
             autoPlay
           >
-            <source src="/images/Video.mp4" type="video/mp4" />
+            <source src={import.meta.env.BASE_URL + "images/Video.mp4"} type="video/mp4" />
           </video>
         </div>
       </Modal>
@@ -311,7 +311,7 @@ const Hero = () => {
             controls
             autoPlay
           >
-            <source src="/images/Video.mp4" type="video/mp4" />
+            <source src={import.meta.env.BASE_URL + "images/Video.mp4"} type="video/mp4" />
           </video>
         </div>
 
