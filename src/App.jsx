@@ -10,38 +10,38 @@ function App() {
     {
       title: "Nós dois",
       date: "2024",
-      image: "/images/eu&ela.jpg",
+      image: import.meta.env.BASE_URL + "images/eu&ela.jpg",
       description: "Juntos para sempre ❤️",
       featured: true
     },
     {
       title: "Viagem",
       date: "2024",
-      image: "/images/viajem.jpg",
+      image: import.meta.env.BASE_URL + "images/viajem.jpg",
       description: "Explorando o mundo juntos"
     },
     {
       title: "Aparecida",
       date: "2024",
-      image: "/images/aparecida.jpg",
+      image: import.meta.env.BASE_URL + "images/aparecida.jpg",
       description: "Momentos especiais"
     },
     {
       title: "Feira",
       date: "2024",
-      image: "/images/feira.jpg",
+      image: import.meta.env.BASE_URL + "images/feira.jpg",
       description: "Passeios e diversão"
     },
     {
       title: "Museu",
       date: "2024",
-      image: "/images/museu.jpg",
+      image: import.meta.env.BASE_URL + "images/museu.jpg",
       description: "Cultura e amor"
     },
     {
       title: "Juntos",
       date: "2024",
-      image: "/images/eu&ela2.jpg",
+      image: import.meta.env.BASE_URL + "images/eu&ela2.jpg",
       description: "Sempre ao seu lado"
     }
   ];
@@ -50,32 +50,32 @@ function App() {
     {
       title: "Aparecida",
       date: "2024",
-      image: "/images/aparecida2.jpg",
+      image: import.meta.env.BASE_URL + "images/aparecida2.jpg",
       description: "Momentos de fé",
       featured: true
     },
     {
       title: "Nós",
       date: "2024",
-      image: "/images/eu&ela3.jpg",
+      image: import.meta.env.BASE_URL + "images/eu&ela3.jpg",
       description: "Nosso amor"
     },
     {
       title: "Museu",
       date: "2024",
-      image: "/images/museu2.jpg",
+      image: import.meta.env.BASE_URL + "images/museu2.jpg",
       description: "Descobrindo juntos"
     },
     {
       title: "Aparecida",
       date: "2024",
-      image: "/images/aparecida3.jpg",
+      image: import.meta.env.BASE_URL + "images/aparecida3.jpg",
       description: "Unidos pela fé"
     },
     {
       title: "Especial",
       date: "2024",
-      image: "/images/bc735577-e7e9-4434-88ae-b45f677bf8ee.jpg",
+      image: import.meta.env.BASE_URL + "images/bc735577-e7e9-4434-88ae-b45f677bf8ee.jpg",
       description: "Momento único"
     }
   ];
